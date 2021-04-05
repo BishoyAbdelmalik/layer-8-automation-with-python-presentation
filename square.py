@@ -19,29 +19,3 @@ for i in range(10):
     pyautogui.dragTo(x,y)
     y-=500-((i+1)*50)
     pyautogui.dragTo(x,y)
-
-    
-# r = 50
-# centrex = 960
-# centrey = 540
-
-# y = centrey - r
-# x = math.sqrt((r ** 2) - ((y - centrey) ** 2)) + centrex
-
-# oldx = x
-# oldy = y
-
-# for i in range(r):
-#     pyautogui.moveTo(x, y)
-#     x = math.sqrt((r ** 2) - ((y - centrey) ** 2)) + centrex
-#     pyautogui.dragTo(x, y)
-#     tempx = centrex - math.sqrt((r ** 2) - ((y - centrey) ** 2))
-#     tempoldx = centrex - math.sqrt((r ** 2) - ((oldy - centrey) ** 2))
-#     pyautogui.moveTo(tempoldx, oldy)
-#     pyautogui.dragTo(tempx, y)
-#     pyautogui.dragTo(x, y) # comment this line if you want to disable fill
-
-#     oldx = x
-#     oldy = y
-
-#     y = y + 1
