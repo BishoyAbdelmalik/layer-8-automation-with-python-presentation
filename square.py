@@ -1,6 +1,5 @@
 import pyautogui
 import time
-import random
 pyautogui.press("win")
 pyautogui.write("paint")
 pyautogui.press("enter")
