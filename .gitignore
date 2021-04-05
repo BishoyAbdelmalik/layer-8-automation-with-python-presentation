@@ -1,0 +1,6 @@
+.vscode
+enviroment
+__pycache__
+*.log
+*.exe
+Helloworld.*
