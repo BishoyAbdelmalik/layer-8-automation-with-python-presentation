@@ -21,6 +21,7 @@ driver.quit()
 pyautogui.press("win")
 pyautogui.write("obs")
 pyautogui.press("enter")
+time.sleep(4)
 
 async def record():
     uri = "ws://localhost:4444"
