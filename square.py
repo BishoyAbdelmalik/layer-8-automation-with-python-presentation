@@ -4,7 +4,7 @@ import random
 pyautogui.press("win")
 pyautogui.write("paint")
 pyautogui.press("enter")
-time.sleep(3)
+time.sleep(1)
 pyautogui.hotkey("win","up")
 x=100
 y=200
